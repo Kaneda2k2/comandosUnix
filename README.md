@@ -13,3 +13,8 @@ shutdown // cuidado que no corra sync y fsck .
 #Unix no tiene control de versiones
 #GNU Emacs para hacer backups
 #Si borras algo es para siempre,Solo se recupera atraves de backups.
+#-------------------- Estructura
+for x in `cat`
+do
+...handle $x
+done
