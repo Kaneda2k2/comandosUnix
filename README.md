@@ -18,3 +18,8 @@ for x in `cat`
 do
 ...handle $x
 done
+#--------------------haciendo loop con multiples variables.
+for file in prog1 prog2 prog3
+do
+...process $file
+done
